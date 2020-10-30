@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+/* Font and background changes */
+h2 {
+	color: #3BC1F6;
+	font-family: Arial;
+	font-size: 16pt;
+}
+
+body {
+	background-color: #C0EDFF;
+}
+
+/* hyperlinks */
+
+a:link {
+	/* Link is not clicked */
+	text-decoration: none;
+}
+
+a:hover {
+	/* Mouse is hovering over the link */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:visited {
+	/* Link has already been clicked */
+	text-decoration: none; 
+}
+
+/* Layouting */
+
+
+nav, header, article {
+	//border: 5px red solid;
+	background-color: #5BCEFC;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+nav {
+	background-color: white;
+}
+
