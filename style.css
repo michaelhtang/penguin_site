@@ -11,6 +11,18 @@ body {
 	background-color: #C0EDFF;
 }
 
+.redFont {
+	color: red;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+#habitatsHeading {
+	color: pink;
+}
+
 /* hyperlinks */
 
 a:link {
@@ -22,6 +34,7 @@ a:hover {
 	/* Mouse is hovering over the link */
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 a:visited {
@@ -46,5 +59,48 @@ nav, header, article {
 
 nav {
 	background-color: white;
+	height: 30px;
 }
+
+aside {
+	//border: 5px red solid;
+	max-width: 20%;
+	float: right;
+	margin-right: 15%;
+	padding-right: 10px;
+}
+
+/* ---- Button ---- */
+
+.button {
+	border: 5px #3BC1F6 solid;
+	width: 65px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #C0EDFF;
+	border-radius: 10px;
+	float: left;
+	margin-right: 3px;
+}
+
+a:link .button {
+	text-transform: uppercase; 
+}
+
+a:visited .button {
+	text-transform: uppercase;
+}
+
+a:hover .button {
+	text-transform: uppercase;
+	border-color: #C0EDFF;
+	background-color: #3BC1F6;
+}
+
+
+
+
 

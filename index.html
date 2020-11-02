@@ -17,9 +17,14 @@ The body is where all the content visible to the user is found. It can be separa
 </header>
 
 <nav>
-	Home | <a href="facts.html">Facts</a> | <a href="http://www.google.com" target="_blank">Google</a>
+	<div class="button">Home</div>  <a href="facts.html"><div class="button">Facts</div></a> <a href="http://www.google.com" target="_blank"><div class="button">Google</div></a>
 </nav>
-
+<aside>
+	<h2>Links</h2>
+	<ul>
+		<li>Wikipedia</li>
+	</ul>
+</aside>
 <article>
 	<p>
 	This website is devoted to penguins.
@@ -27,16 +32,16 @@ The body is where all the content visible to the user is found. It can be separa
 	<a href="media/penguins.jpg" target="_target">
 		<img src="media/penguins_250px.jpg" alt="Baby Penguins"/>
 	</a>
-	<h2>Why penguins are cool</h2>
-	<p>
+	<h2 class="redFont uppercase">Why penguins are cool</h2>
+	<p class="redFont">
 	Penguins are cool because they live in the <b>Southern Hemisphere</b> in cooler waters. Many misconeptions about penguins are common. For example, many winter scenes have <strong>polar bears</strong> and penguins in the same image when they never live together.
 	</p>
 	<p>
-	The claymation animation <i>Pengu</i> popularized penguins with <em>Pengu's comical experiences in modern day society.</em>
+	The <span class="redFont">claymation</span> animation <i>Pengu</i> popularized penguins with <em>Pengu's comical experiences in modern day society.</em>
 	</p>
 
 	</p>
-	<h2>Penguin Habitats</h2>
+	<h2 id="habitatsHeading">Penguin Habitats</h2>
 	<p>
 	Penguins live in Antartica, but are found throughout the southern points of South America, Africa, and Australia too!
 	</p>
