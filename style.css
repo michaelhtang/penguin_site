@@ -100,7 +100,12 @@ a:hover .button {
 	background-color: #3BC1F6;
 }
 
-
+/* --- image centering --- */
+.center-image { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
